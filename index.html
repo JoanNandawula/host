@@ -53,7 +53,6 @@
             <!-- Profile Card -->
             <div class="card">
                 <input type="checkbox" id="toggle-profile" class="toggle-content">
-                <!-- <img src="images/profile.jpg" alt="Profile Image"> -->
                 <i class='bx bxs-user'></i>
                 <h2>Profile</h2>
                 <p>Hello! I'm N.Joan, a passionate software engineer with expertise in developing web applications using
@@ -76,7 +75,6 @@
 
             <div class="card">
                 <input type="checkbox" id="toggle-education" class="toggle-content">
-                <!-- <img src="images/education.jpg" alt="Education Image"> -->
                 <i class='bx bxs-graduation'></i>
                 <h2>Education</h2>
                 <p>I hold a certificate in Software Engineering, which has provided me with a strong foundation in
@@ -103,7 +101,6 @@
             </div>
             <div class="card">
                 <input type="checkbox" id="toggle-experience" class="toggle-content">
-                <!-- <img src="images/experience.jpg" alt="Experience Image"> -->
                 <i class='bx bxs-briefcase'></i>
                 <h2>Experience</h2>
                 <p>With extensive experience in the tech industry, I've gained valuable skills and insights into various
@@ -121,7 +118,6 @@
             </div>
             <div class="card">
                 <input type="checkbox" id="toggle-hobbies" class="toggle-content">
-                <!-- <img src="images/hobbies.jpg" alt="Hobbies Image"> -->
                 <i class='bx bxs-heart'></i>
                 <h2>Hobbies</h2>
                 <p>In my free time, I enjoy a range of activities that allow me to unwind and explore my interests
@@ -145,74 +141,153 @@
                 <label for="toggle-hobbies" class="read-more">Read more</label>
                 <label for="toggle-hobbies" class="read-less">Read less</label>
             </div>
-            <!-- Add other cards for Education, Experience, Hobbies as needed -->
         </div>
     </section>
+
+    <style>
+        .card a {
+          color: #031540;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 16px;
+          display: inline-block;
+          padding: 4px 8px;
+        }
+      
+        .card a:hover {
+          text-decoration: underline;
+        }
+    </style>
+      
     <section class="about" id="section5">
         <h1>Projects</h1>
         <div class="card-container">
-            <div class="card">
-                <!-- <input type="checkbox" id="toggle-hobbies" class="toggle-content"> -->
-                <img src="images/gi.png" alt="Hobbies Image" style="height: 250px;">
-                <p>My daycare Project</p>
-            </div>
-            <div class="card">
-                <input type="checkbox" id="toggle-hobbies" class="toggle-content">
-                <img src="images/day.png" alt="Hobbies Image" style="height: 250px;">
-               <p>My daycare Project</p>
-            </div>
-
+          <div class="card">
+            <img src="images/gi.png" alt="GI Project Image" style="height: 200px;">
+            <a href="https://one-project-3.onrender.com/" target="_blank">
+              My DayStarDayCare Project
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/day.png" alt="Daycare Project Image" style="height: 200px;">
+            <a href="" target="_blank">
+              My Portifolio
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/RIMS.png" alt="RIMS Project Image" style="height: 200px;">
+            <a href="https://www.youtube.com/watch?v=iub65Semxxc" target="_blank">
+              My RIMS Project
+            </a>
+          </div>
+          <div class="card">
+            <img src="images/Fliits_App.png" alt="FLiiTS Project Image" style="height: 200px;">
+            <a href="https://fliits.firebaseapp.com/" target="_blank">
+              My FLiiTS Project
+            </a>
+          </div>
         </div>
     </section>
-
-   <section class="skills" id="section3">
-    <h1>My Skills</h1>
-    <div class="skills-container">
-        <div class="skills-row">
-            <div class="skill">
-                <i class='bx bx-code-alt'></i>
-                <h2>Programming Languages</h2>
-                <p>Python</p>
+      
+    <section class="skills" id="section3">
+        <h1>My Skills</h1>
+        <div class="skills-container">
+            <div class="skills-row">
+                <div class="skill">
+                    <i class='bx bx-code-alt'></i>
+                    <h2>Programming Languages</h2>
+                    <p>Python, JavaScript</p>
+                </div>
+                <div class="skill">
+                    <i class='bx bx-laptop'></i>
+                    <h2>Web Development</h2>
+                    <p>HTML, CSS, Django, React</p>
+                </div>
+                <div class="skill">
+                    <i class='bx bxl-wordpress'></i>
+                    <h2>WordPress</h2>
+                    <p>Theme Development, Plugin Customization</p>
+                </div>
             </div>
-            <div class="skill">
-                <i class='bx bx-laptop'></i>
-                <h2>Web Development</h2>
-                <p>HTML, CSS, Django</p>
+            
+            <div class="skills-row">
+                <div class="skill">
+                    <i class='bx bx-palette'></i>
+                    <h2>Graphic Design</h2>
+                    <p>Adobe Photoshop, Illustrator, UI/UX Design</p>
+                </div>
+                <div class="skill">
+                    <i class='bx bx-server'></i>
+                    <h2>Backend Development</h2>
+                    <p>SQL, PostgreSQL, REST APIs</p>
+                </div>
+                <div class="skill">
+                    <i class='bx bx-git-branch'></i>
+                    <h2>Version Control</h2>
+                    <p>GitHub, Git</p>
+                </div>
             </div>
-            <div class="skill">
-                <i class='bx bx-server'></i>
-                <h2>Backend Development</h2>
-                <p>SQL</p>
+            
+            <div class="skills-row">
+                <div class="skill">
+                    <i class='bx bx-window-alt'></i>
+                    <h2>UI/UX Design</h2>
+                    <p>HTML, CSS, Bootstrap, Figma</p>
+                </div>
+                <div class="skill">
+                    <i class='bx bx-cube'></i>
+                    <h2>Frameworks & Technologies</h2>
+                    <p>Django, React, Node.js</p>
+                </div>
+                <div class="skill">
+                    <i class='bx bx-data'></i>
+                    <h2>Database Management</h2>
+                    <p>PostgreSQL, MySQL</p>
+                </div>
+            </div>
+            
+            <div class="skills-row">
+                <div class="skill">
+                    <i class='bx bx-package'></i>
+                    <h2>Containerization</h2>
+                    <p>Docker, Kubernetes</p>
+                </div>
+                <div class="skill">
+                    <i class='bx bx-task'></i>
+                    <h2>Tools</h2>
+                    <p>Trello, Jira, Slack</p>
+                </div>
+                <div class="skill">
+                    <i class='bx bx-briefcase-alt'></i>
+                    <h2>Methodologies</h2>
+                    <p>Lean, Agile, Scrum</p>
+                </div>
+            </div>
+            
+            <div class="skills-row">
+                <div class="skill">
+                    <i class='bx bx-time'></i>
+                    <h2>Time Management</h2>
+                    <p>Efficiently managing time to balance multiple tasks</p>
+                </div>
+                <div class="skill">
+                    <i class='bx bx-brain'></i>
+                    <h2>Critical Thinking</h2>
+                    <p>Making reasoned decisions based on evidence</p>
+                </div>
+                <div class="skill">
+                    <i class='bx bx-group'></i>
+                    <h2>Team Collaboration</h2>
+                    <p>Effective teamwork and communication</p>
+                </div>
             </div>
         </div>
-        <div class="skills-row">
-            <div class="skill">
-                <i class='bx bx-time'></i>
-                <h2>Time Management</h2>
-                <p>Efficiently managing time to balance multiple tasks and meet deadlines</p>
-            </div>
-            <div class="skill">
-                <i class='bx bx-brain'></i>
-                <h2>Critical Thinking</h2>
-                <p>Making reasoned decisions based on evidence and analysis</p>
-            </div>
-            <div class="skill">
-                <i class='bx bx-group'></i>
-                <h2>Team Collaboration</h2>
-                <p>Ability to work effectively within a team, communicate ideas clearly, and support team members</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
+    </section>
 
     <section class="contact" id="section4">
         <h1>Contact Me</h1>
         <div class="contact-container">
             <form action="https://formspree.io/f/mldrbzja" method="POST" class="contact-form">
-                <!-- Contact form fields -->
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required>
@@ -291,7 +366,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                &copy; 2024 N.Joan | Designed by N.Joan
+                &copy; 2025 N.Joan | Designed by N.Joan
             </div>
         </div>
     </footer>
